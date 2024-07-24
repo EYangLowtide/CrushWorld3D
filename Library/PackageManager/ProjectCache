@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638566633548656445
-    m_Hash: 2328531611
+      ticks: 638569325485075905
+    m_Hash: 2797631175
   m_LockFileStatus:
     m_FilePath: C:/Users/elgol/CrushWorld/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638566635264796854
-    m_Hash: 1244143658
+      ticks: 638569325485197236
+    m_Hash: 970489141
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/elgol/CrushWorld/Packages
-m_EditorVersion: 6000.0.10f1 (413673acabac)
+m_EditorVersion: 2023.2.18f1 (1cb755715f58)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -87,17 +87,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 0e3cfd27a2b4d364334434d9dcc1bf1f6d795736
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2019.2.0a1
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.2d.tilemap
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -174,17 +169,150 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6c40dcf2e8ac14012cdc046522369db9f24c8f30
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2019.2.0a1
+- packageId: com.unity.2d.tilemap.extras@4.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 4.0.2
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.2d.tilemap.extras@4.0.2
+  assetPath: Packages/com.unity.2d.tilemap.extras
+  name: com.unity.2d.tilemap.extras
+  displayName: 2D Tilemap Extras
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: assets
+  description: '2D Tilemap Extras is a package that contains extra scripts for use
+    with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
+    the Tilemap feature.
+
+
+    The following are included in the package:
+
+    Brushes:
+    GameObject Brush, Group Brush, Line Brush, Random Brush
+
+    Tiles: Animated
+    Tile, Rule Tile, Rule Override Tile
+
+    Other: Grid Information, Custom Rules
+    for Rule Tile'
+  errors: []
+  versions:
+    all:
+    - 1.5.0-preview
+    - 1.6.0-preview.1
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.7.0-preview
+    - 1.8.0-preview
+    - 1.8.1-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 1.8.4-preview
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.2.6
+    - 2.2.7
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    compatible:
+    - 4.0.2
+    recommended: 4.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638294344990000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@4.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/2d-extras.git
+    revision: 21a24803135ec4fbe47be9ccd27fb06e47d06d88
+    path: 
+  unityLifecycle:
+    version: 4.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- [GameObjectBrush] Use cell offset to determine
+    location of GameObject when painting and erasing"}'
+  assetStore:
+    productId: 
 - packageId: com.unity.ads@4.4.2
   testable: 0
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ads
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ads@4.4.2
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -252,8 +380,10 @@ m_ResolvedPackages:
     - 4.3.0
     - 4.4.1
     - 4.4.2
+    - 4.12.0
     compatible:
     - 4.4.2
+    - 4.12.0
     recommended: 4.4.2
     deprecated: []
   dependencies:
@@ -306,17 +436,12 @@ m_ResolvedPackages:
     Context is null for cached directory file path."}'
   assetStore:
     productId: 
-  fingerprint: a7b997f68a1d40387ca4d33fc75578709c140a37
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 4.4.2
-    minimumUnityVersion: 2018.4.18f1
 - packageId: com.unity.ai.navigation@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ai.navigation
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ai.navigation@2.0.0
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -391,17 +516,12 @@ m_ResolvedPackages:
     next frame after any of the link''s ends change their world position."}'
   assetStore:
     productId: 
-  fingerprint: f6367599281e08d75acc8229ad70ac03cfe57ac1
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.0
-    minimumUnityVersion: 2023.2.0a18
 - packageId: com.unity.analytics@3.8.1
   testable: 0
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.analytics
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.analytics@3.8.1
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -465,17 +585,15 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 5.1.1
+    version: 4.4.0
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.services.core
-    version: 1.13.0
+    version: 1.12.5
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -519,17 +637,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6cc66d58ac08950316d3b86a26c92187aca1ddb0
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.8.1
-    minimumUnityVersion: 2019.3.0a1
-- packageId: com.unity.cinemachine@2.10.0
+- packageId: com.unity.cinemachine@3.1.1
   testable: 0
   isDirectDependency: 1
-  version: 2.10.0
+  version: 3.1.1
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.cinemachine
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.cinemachine@3.1.1
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -539,11 +652,10 @@ m_ResolvedPackages:
     url: 
   category: cinematography
   type: assets
-  description: "Smart camera tools for passionate creators. \n\nNew starting from
-    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
-    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
-    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
-    this version from the Package Manager."
+  description: "Smart camera tools for passionate creators. \n\nCinemachine 3 is
+    a newer and better version of Cinemachine, but upgrading an existing project
+    from 2.X will likely require some effort.  If you're considering upgrading an
+    older project, please see our upgrade guide in the user manual."
   errors: []
   versions:
     all:
@@ -625,6 +737,8 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     compatible:
+    - 2.9.5
+    - 2.9.7
     - 2.10.0
     - 2.10.1
     - 3.0.0-pre.3
@@ -637,19 +751,23 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.1.0
     - 3.1.1
-    recommended: 3.1.1
+    recommended: 2.9.7
     deprecated: []
   dependencies:
-  - name: com.unity.test-framework
-    version: 1.1.31
+  - name: com.unity.splines
+    version: 2.0.0
   resolvedDependencies:
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
+  - name: com.unity.splines
+    version: 2.5.2
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
+  - name: com.unity.modules.imgui
     version: 1.0.0
   keywords:
   - camera
@@ -686,18 +804,18 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638451680320000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
+  datePublishedTicks: 638551629630000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 3b55bae0f41b1048cc2080391ac3d4eb1c22b7ef
+    revision: 9e529ae02d9d659c09ff23c6ef5eb058f54ddfad
     path: 
   unityLifecycle:
-    version: 2.10.0
+    version: 2.9.5
     nextVersion: 3.0.0-pre.3
-    recommendedVersion: 3.1.0
+    recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -705,23 +823,31 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Bugfix: CinemachineFreeLook.ForceCameraPosition()
-    sometimes did not take full effect immediately.\n- Bugfix: 3rdPersonFollow sometimes
-    generated invalid camera position when the target when DampingWhenOccluded is
-    nonzero."}'
+  upmReserved: '{"changelog":"### Added\n- New Rotation Control behaviour SplineDollyLookAtTargets
+    lets you specify LookAt points at desird positions along a Spline Dolly trajectory.\n-
+    Added Recenter Target setting to CinemachinePanTilt.\n\n### Fixed\n- Bugfix:
+    InputAxis.TriggerRecentering() function caused the axis to immediately snap to
+    its recenter value.\n- Bugfix: When multiple CM Brains were present, FixedUpdte
+    cameras were sometimes being updated too frequently, resulting in jittery motion.\n-
+    Regression fix: StateDrivenCamera inspector was failing to correctly set the
+    states in the instruction list.\n- Bugfix: Decollider ignored terrain layers
+    when resolving obstacles.\n- Bugfix: The GroupAverage Rotation Mode in CinemachineTargetGroup
+    was not calculated properly.\n- Bugfix: added missing null check in CinemachineTargetGroup.WeightedMemberBoundsForValidMember.\n-
+    Bugfix: added missing null check in CinemachineDeoccluder.PushCameraBack().\n-
+    Bugfix: Cinemachine did not work properly with scaled splines.\n\n### Changed\n-
+    CinemachineGroupFraming now has a compatibility mode so that it can work with
+    CinemachineConfiner2D out of the box.\n- Removed FadeOutNearbyObjects sample
+    scene and shader, because they do not show anythng useful.\n- SimplePlayerController
+    no longer uses PlayerController.isGrounded because it''s not reliable outside
+    of FixedUpdate."}'
   assetStore:
     productId: 
-  fingerprint: 6f06b54a94ce5abd9e780534a6b389ad75950ee0
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.10.0
-    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.collab-proxy@2.4.3
   testable: 0
   isDirectDependency: 1
   version: 2.4.3
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.collab-proxy@2.4.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -810,8 +936,9 @@ m_ResolvedPackages:
     - 2.3.1
     - 2.4.3
     compatible:
+    - 2.3.1
     - 2.4.3
-    recommended: 2.4.3
+    recommended: 2.3.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -851,7 +978,7 @@ m_ResolvedPackages:
     revision: d4c8fa70dd9679b33019945dc0a483c8c7e8038f
     path: 
   unityLifecycle:
-    version: 2.4.3
+    version: 2.3.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -879,17 +1006,12 @@ m_ResolvedPackages:
     in the pending changes tree"}'
   assetStore:
     productId: 
-  fingerprint: 528f1389dab3605aec45519ad6a6cb0af37fbd22
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.4.3
-    minimumUnityVersion: 2020.3.48f1
 - packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.feature.development
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.feature.development@1.0.2
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -936,7 +1058,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.28
+    version: 3.0.31
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
@@ -980,17 +1102,12 @@ m_ResolvedPackages:
   upmReserved: '{"quickstart":"https://docs.unity3d.com/2021.2/Documentation/Manual/DeveloperToolsFeature.html"}'
   assetStore:
     productId: 
-  fingerprint: c770b6a36a30949b030c5ec02d835f771b975cbb
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.2
-    minimumUnityVersion: 
-- packageId: com.unity.ide.rider@3.0.28
+- packageId: com.unity.ide.rider@3.0.31
   testable: 0
   isDirectDependency: 1
-  version: 3.0.28
+  version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ide.rider@3.0.31
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1073,13 +1190,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638447139880000000
+  datePublishedTicks: 638548308080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
+    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
     path: 
   unityLifecycle:
     version: 3.0.28
@@ -1092,22 +1209,18 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- fix RIDER-103933 \"PlayerSettings.suppressCommonWarnings\"
-    is not supported in Unity 2019.4.40f\n- fix https://github.com/JetBrains/resharper-unity/issues/2431
-    and [RIDER-104221](https://youtrack.jetbrains.com/issue/RIDER-104221)"}'
+  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
+    that work fine in Unity when utilizing DOTS - when Player project, by generating
+    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
+    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
   assetStore:
     productId: 
-  fingerprint: 7605a3979f4b0ed9100a7fcc2d6140ebc24fc251
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.0.28
-    minimumUnityVersion: 2019.2.6f1
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1203,17 +1316,12 @@ m_ResolvedPackages:
     Prevent circular dependency errors with SDK-Style projects."}'
   assetStore:
     productId: 
-  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.22
-    minimumUnityVersion: 2019.4.25f1
 - packageId: com.unity.inputsystem@1.8.2
   testable: 0
   isDirectDependency: 1
   version: 1.8.2
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.inputsystem@1.8.2
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1274,9 +1382,16 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.9.0
     compatible:
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
     - 1.8.2
-    recommended: 1.8.2
+    - 1.9.0
+    recommended: 1.7.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -1322,8 +1437,8 @@ m_ResolvedPackages:
     revision: ea78ad9a0d8809879718f3d850572097f3f5a7f4
     path: 
   unityLifecycle:
-    version: 1.8.2
-    nextVersion: 
+    version: 1.7.0
+    nextVersion: 1.8.0-pre.1
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
@@ -1358,17 +1473,12 @@ m_ResolvedPackages:
     by default if the Input System package is installed and enabled."}'
   assetStore:
     productId: 
-  fingerprint: 2e301545be76611bf3e328b5c47097d3838f0434
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.8.2
-    minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.probuilder@6.0.1
+- packageId: com.unity.probuilder@5.2.2
   testable: 0
   isDirectDependency: 1
-  version: 6.0.1
+  version: 5.2.2
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.probuilder
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.probuilder@5.2.2
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -1385,7 +1495,12 @@ m_ResolvedPackages:
 
     Advanced features include UV editing, vertex colors, parametric
     shapes, and texture blending. With ProBuilder''s model export feature it''s easy
-    to tweak your levels in any external 3D modelling suite.'
+    to tweak your levels in any external 3D modelling suite.
+
+
+    If you are using
+    URP/HDRP, be careful to also import the corresponding sample project in the section
+    below to get the proper materials.'
   errors: []
   versions:
     all:
@@ -1436,12 +1551,10 @@ m_ResolvedPackages:
     - 6.0.1-pre.2
     - 6.0.1
     compatible:
-    - 6.0.1
-    recommended: 6.0.1
+    - 5.2.2
+    recommended: 5.2.2
     deprecated: []
   dependencies:
-  - name: com.unity.shadergraph
-    version: 17.0.2
   - name: com.unity.settings-manager
     version: 1.0.3
   - name: com.unity.modules.physics
@@ -1449,42 +1562,12 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.shadergraph
-    version: 17.0.3
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.burst
-    version: 1.8.16
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.collections
-    version: 2.4.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  - name: com.unity.searcher
-    version: 4.9.2
-  - name: com.unity.settings-manager
-    version: 2.0.1
   keywords:
   - 3d
   - model
@@ -1518,16 +1601,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638471242190000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/index.html
+  datePublishedTicks: 638368700860000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.probuilder.git
-    revision: c9f1ad44225fbe6f18e4e759ae5a2d177ffa89ca
+    revision: d1aaa03087398cf9477de8e6cfbfb66b180ab71d
     path: 
   unityLifecycle:
-    version: 6.0.1
+    version: 5.2.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1537,20 +1620,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changes\n\n- Moved package out of preview."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- [PB-88] Fixed a bug that prevented the
+    ProBuilder window to update its content after changing its docking position."}'
   assetStore:
     productId: 
-  fingerprint: fc3820ce2c7879b9c4a827d537bd00d1a3fb2d31
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 6.0.1
-    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.purchasing@4.12.0
   testable: 0
   isDirectDependency: 1
   version: 4.12.0
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.purchasing
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.purchasing@4.12.0
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1647,12 +1726,17 @@ m_ResolvedPackages:
     - 4.12.1-pre.1
     - 4.12.1-pre.3
     - 4.12.1-pre.4
+    - 4.12.1
+    - 4.12.2
     compatible:
+    - 4.11.0
     - 4.12.0
     - 4.12.1-pre.1
     - 4.12.1-pre.3
     - 4.12.1-pre.4
-    recommended: 4.12.0
+    - 4.12.1
+    - 4.12.2
+    recommended: 4.11.0
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1679,7 +1763,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.13.0
+    version: 1.12.5
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
   keywords:
@@ -1707,9 +1791,9 @@ m_ResolvedPackages:
     revision: 8615c80aac558fdbe941fd7401c06c83355507b1
     path: 
   unityLifecycle:
-    version: 4.12.0
-    nextVersion: 4.12.1-pre.1
-    recommendedVersion: 4.12.0
+    version: 4.11.0
+    nextVersion: 
+    recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -1746,17 +1830,12 @@ m_ResolvedPackages:
     `\"skuDetails\"` will now return an empty string since they are no longer supported."}'
   assetStore:
     productId: 
-  fingerprint: c7eadb234fb39fe7c5ee5283270ec4d04b3b67c4
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 4.12.0
-    minimumUnityVersion: 2020.3.0a1
-- packageId: com.unity.render-pipelines.universal@17.0.3
+- packageId: com.unity.render-pipelines.universal@16.0.5
   testable: 0
   isDirectDependency: 1
-  version: 17.0.3
+  version: 16.0.5
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.render-pipelines.universal
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.render-pipelines.universal@16.0.5
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1818,55 +1897,53 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 17.0.3
+    - 16.0.5
     compatible:
-    - 17.0.3
-    recommended: 17.0.3
+    - 16.0.5
+    recommended: 16.0.5
     deprecated: []
   dependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.shadergraph
-    version: 17.0.3
-  - name: com.unity.render-pipelines.universal-config
-    version: 17.0.3
-  resolvedDependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.burst
-    version: 1.8.16
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.2.1
+  - name: com.unity.burst
+    version: 1.8.9
+  - name: com.unity.render-pipelines.core
+    version: 16.0.5
+  - name: com.unity.shadergraph
+    version: 16.0.5
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.burst
+    version: 1.8.13
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 16.0.5
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.collections
-    version: 2.4.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.rendering.light-transport
     version: 1.0.1
+  - name: com.unity.collections
+    version: 1.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.4.4
+  - name: com.unity.ext.nunit
+    version: 2.0.5
   - name: com.unity.shadergraph
-    version: 17.0.3
+    version: 16.0.5
   - name: com.unity.searcher
     version: 4.9.2
-  - name: com.unity.render-pipelines.universal-config
-    version: 17.0.3
   keywords:
   - graphics
   - performance
@@ -1895,7 +1972,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.0.3
+    version: 16.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1908,17 +1985,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: a5961e2a5d91292718c1e37afa46f783c713af76
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.test-framework@1.4.4
   testable: 0
   isDirectDependency: 1
   version: 1.4.4
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.test-framework
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.test-framework@1.4.4
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1985,12 +2057,17 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
     - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    recommended: 1.4.4
+    recommended: 1.3.9
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -2030,7 +2107,7 @@ m_ResolvedPackages:
     revision: c9f8df94dd6b521dfd42d4d21d026130455299a5
     path: 
   unityLifecycle:
-    version: 1.4.4
+    version: 1.3.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2047,17 +2124,12 @@ m_ResolvedPackages:
     attached to the test result for PlayMode."}'
   assetStore:
     productId: 
-  fingerprint: 4e62d75b705a73b10f689eb9441e75e69dcd0116
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.4.4
-    minimumUnityVersion: 2019.4.0a10
 - packageId: com.unity.timeline@1.8.7
   testable: 0
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.timeline
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.timeline@1.8.7
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2159,6 +2231,7 @@ m_ResolvedPackages:
     - 1.8.6
     - 1.8.7
     compatible:
+    - 1.8.6
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
@@ -2207,7 +2280,7 @@ m_ResolvedPackages:
     revision: d6432ca638481c3d0e4c01f87f9cdbe3c4b1d529
     path: 
   unityLifecycle:
-    version: 1.8.7
+    version: 1.8.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2230,17 +2303,12 @@ m_ResolvedPackages:
     to repaint immediately."}'
   assetStore:
     productId: 
-  fingerprint: c58b4ee65782ad38338e29f7ee67787cb6998f04
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.8.7
-    minimumUnityVersion: 2019.3.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ugui
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ugui@2.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2265,7 +2333,6 @@ m_ResolvedPackages:
     - 2.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
-    - 3.0.0-exp.4
     recommended: 2.0.0
     deprecated: []
   dependencies:
@@ -2322,17 +2389,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 1bd040c2d659bda2b78a218b1ddc76b80b58a906
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.0
-    minimumUnityVersion: 2019.2.0a1
 - packageId: com.unity.visualscripting@1.9.4
   testable: 0
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.visualscripting@1.9.4
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2379,8 +2441,12 @@ m_ResolvedPackages:
     - 1.9.2
     - 1.9.4
     compatible:
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
     - 1.9.4
-    recommended: 1.9.4
+    recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -2419,7 +2485,7 @@ m_ResolvedPackages:
     revision: 41aac2b7038c2b1259c546329890d3736ce2394e
     path: 
   unityLifecycle:
-    version: 1.9.4
+    version: 1.8.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2433,17 +2499,12 @@ m_ResolvedPackages:
     correctly by the 2022.3 Unity Editor"}'
   assetStore:
     productId: 
-  fingerprint: 0920df93f9574f857a55af27bd38fdd9230a3f51
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.9.4
-    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 1
   version: 2.1.10
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.xr.legacyinputhelpers
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -2550,17 +2611,12 @@ m_ResolvedPackages:
     are defined."}'
   assetStore:
     productId: 
-  fingerprint: 4716850f3b0c9a398c68cd272d279e68245c49a7
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.1.10
-    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.accessibility@1.0.0
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2617,17 +2673,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2684,17 +2735,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2750,17 +2796,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2817,17 +2858,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2884,17 +2920,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2951,17 +2982,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3022,17 +3048,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.director
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3097,17 +3118,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3164,17 +3180,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3231,17 +3242,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3298,17 +3304,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3365,17 +3366,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3432,17 +3428,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3499,17 +3490,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3570,17 +3556,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3637,17 +3618,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3712,17 +3688,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3782,17 +3753,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3849,17 +3815,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3932,17 +3893,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3999,17 +3955,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4074,17 +4025,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4141,17 +4087,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4216,17 +4157,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4291,17 +4227,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4366,17 +4297,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4457,17 +4383,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4528,17 +4449,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.video
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4607,17 +4523,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4688,17 +4599,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4755,17 +4661,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4834,17 +4735,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4905,17 +4801,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4972,17 +4863,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.ext.nunit@2.0.5
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5051,1158 +4937,55 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
   assetStore:
     productId: 
-  fingerprint: 60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.5
-    minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.render-pipelines.core@17.0.3
+- packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
-  version: 17.0.3
-  source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.render-pipelines.core
-  assetPath: Packages/com.unity.render-pipelines.core
-  name: com.unity.render-pipelines.core
-  displayName: Core RP Library
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: SRP Core makes it easier to create or customize a Scriptable Render
-    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
-    working with platform-specific graphics APIs, utility functions for common rendering
-    operations, and  shader libraries. The code in SRP Core is use by the High Definition
-    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
-    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
-    save you time.
-  errors: []
-  versions:
-    all:
-    - 0.1.21
-    - 0.1.27
-    - 0.1.28
-    - 1.0.0-beta
-    - 1.0.1-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.8-preview
-    - 1.1.10-preview
-    - 1.1.11-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.35
-    - 9.0.0-preview.38
-    - 9.0.0-preview.60
-    - 9.0.0-preview.77
-    - 10.0.0-preview.30
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 17.0.3
-    compatible:
-    - 17.0.3
-    recommended: 17.0.3
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.8.14
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.collections
-    version: 2.4.1
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.16
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.4.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 17.0.3
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: b8271c51ea132740a57fce7ed57de26814fdc5de
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.shadergraph@17.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 17.0.3
-  source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.shadergraph
-  assetPath: Packages/com.unity.shadergraph
-  name: com.unity.shadergraph
-  displayName: Shader Graph
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The Shader Graph package adds a visual Shader editing tool to Unity.
-    You can use this tool to create Shaders in a visual way instead of writing code.
-    Specific render pipelines can implement specific graph features. Currently, both
-    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
-    Shader Graph.
-  errors: []
-  versions:
-    all:
-    - 0.1.8
-    - 0.1.9
-    - 0.1.17
-    - 1.0.0-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.3-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.6-preview
-    - 1.1.8-preview
-    - 1.1.9-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.34
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 17.0.3
-    compatible:
-    - 17.0.3
-    recommended: 17.0.3
-    deprecated: []
-  dependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.searcher
-    version: 4.9.2
-  resolvedDependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.burst
-    version: 1.8.16
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.4.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  - name: com.unity.searcher
-    version: 4.9.2
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 17.0.3
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 451db51a0d39948afecb8c8df4a6b25c19e297af
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.render-pipelines.universal-config@17.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 17.0.3
-  source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.render-pipelines.universal-config
-  assetPath: Packages/com.unity.render-pipelines.universal-config
-  name: com.unity.render-pipelines.universal-config
-  displayName: Universal RP Config
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Configuration files for the Universal Render Pipeline.
-  errors: []
-  versions:
-    all:
-    - 17.0.3
-    compatible:
-    - 17.0.3
-    recommended: 17.0.3
-    deprecated: []
-  dependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  resolvedDependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.burst
-    version: 1.8.16
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.4.1
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 17.0.3
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: fa63c96d3e1af317d84d171cd6c0e0658ab159df
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.services.core@1.13.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.13.0
+  version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.services.core
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    - 1.9.0
-    - 1.10.1
-    - 1.11.0
-    - 1.12.0
-    - 1.12.1
-    - 1.12.2
-    - 1.12.4
-    - 1.12.5
-    - 1.13.0
-    compatible:
-    - 1.13.0
-    recommended: 1.13.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638542134710000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.13/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: b39fd5b596524e043554f2114f844632f592406d
-    path: 
-  unityLifecycle:
-    version: 1.13.0
-    nextVersion: 
-    recommendedVersion: 1.13.0
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added initialization success and failure
-    events to UnityServices."}'
-  assetStore:
-    productId: 
-  fingerprint: ebe452e552b92964f64e438bdc2e6a7d850c66cc
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.13.0
-    minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.settings-manager
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
   author:
     name: 
     email: 
     url: 
   category: 
   type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
   errors: []
   versions:
     all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
     - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.1
-    minimumUnityVersion: 2018.4.0a1
-- packageId: com.unity.editorcoroutines@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.editorcoroutines
-  assetPath: Packages/com.unity.editorcoroutines
-  name: com.unity.editorcoroutines
-  displayName: Editor Coroutines
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
-    objects. '
-  errors: []
-  versions:
-    all:
-    - 0.0.1-preview.3
-    - 0.0.1-preview.4
-    - 0.0.1-preview.5
-    - 0.0.2-preview.1
-    - 0.1.0-preview.1
-    - 0.1.0-preview.2
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - coroutine
-  - coroutines
-  - editor
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2018.1.0a1
-- packageId: com.unity.performance.profile-analyzer@1.2.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.2
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.performance.profile-analyzer
-  assetPath: Packages/com.unity.performance.profile-analyzer
-  name: com.unity.performance.profile-analyzer
-  displayName: Profile Analyzer
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: "The Profile Analyzer tool supports the standard Unity Profiler. You
-    can use it to analyze multiple frames and multiple data sets of the CPU data
-    in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
-    set of Profiler CPU data \n\u25AA Comparison of two multi-frame profile scans
-    \n\n"
-  errors: []
-  versions:
-    all:
-    - 0.4.0-preview.3
-    - 0.4.0-preview.5
-    - 0.4.0-preview.6
-    - 0.5.0-preview.1
-    - 0.6.0-preview.1
-    - 0.7.0-preview.4
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 1.1.0-pre.2
+    - 1.1.0-preview.1
     - 1.1.0
-    - 1.1.1
-    - 1.2.2
-    compatible:
-    - 1.2.2
-    recommended: 1.2.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638108624620000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
-    path: 
-  unityLifecycle:
-    version: 1.2.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n* Fixed exception thrown when removing
-    marker."}'
-  assetStore:
-    productId: 
-  fingerprint: fe7acfd2717a98ded6ddc33be6b2ebe4459a2add
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.2.2
-    minimumUnityVersion: 2020.3.0a1
-- packageId: com.unity.testtools.codecoverage@1.2.5
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.5
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.testtools.codecoverage
-  assetPath: Packages/com.unity.testtools.codecoverage
-  name: com.unity.testtools.codecoverage
-  displayName: Code Coverage
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Use this package to export code coverage data and reports from your
-    automated tests. Additionally, the Code Coverage package offers a Coverage Recording
-    feature which allows capturing coverage data on demand, for manual testing or
-    when there are no automated tests in the project.
-  errors: []
-  versions:
-    all:
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.2-preview
-    - 0.2.3-preview
-    - 0.3.0-preview
-    - 0.3.1-preview
-    - 0.4.0-preview
-    - 0.4.1-preview
-    - 0.4.2-preview
-    - 0.4.3-preview
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0-exp.1
-    - 1.2.0-exp.2
-    - 1.2.0-exp.3
-    - 1.2.0-exp.4
-    - 1.2.0-exp.5
-    - 1.2.0-exp.6
-    - 1.2.0-exp.7
-    - 1.2.0
     - 1.2.1
-    - 1.2.2
-    - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
     compatible:
-    - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
-  dependencies:
-  - name: com.unity.test-framework
-    version: 1.0.16
-  - name: com.unity.settings-manager
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.0.1
-  keywords:
-  - test
-  - coverage
-  - testing
-  - opencover
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638386640140000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
-    path: 
-  unityLifecycle:
-    version: 1.2.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixes\n- Fixed failing to generate code coverage
-    for assemblies whose name starts with ''system'' (case [COV-38](https://issuetracker.unity3d.com/issues/code-coverage-fails-to-generate-a-report-when-the-assembly-name-begins-with-the-word-system)).\n-
-    Fixed results xml file not been correctly stored under the EditMode folder if
-    it is written after a domain reload (case [COV-36](https://issuetracker.unity3d.com/issues/coverage-results-xml-file-is-not-categorized-as-editmode-if-it-is-written-after-domain-reload))."}'
-  assetStore:
-    productId: 
-  fingerprint: be1fd8edb454c4523a418deda696a9209411ab71
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.2.5
-    minimumUnityVersion: 2019.3.0a1
-- packageId: com.unity.services.analytics@5.1.1
-  testable: 0
-  isDirectDependency: 0
-  version: 5.1.1
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.services.analytics
-  assetPath: Packages/com.unity.services.analytics
-  name: com.unity.services.analytics
-  displayName: Analytics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: The Unity Analytics package automatically collects core events and
-    user properties when someone uses your game or application, and enables you to
-    track specific in-game actions your user performs by defining custom events.
-    The data collected from this package is surfaced in the Unity dashboard where
-    you can use it to gather user insights, segment your player base and make informed
-    decisions around the optimization of your game.
-  errors: []
-  versions:
-    all:
-    - 1.0.3
-    - 1.0.4
-    - 1.0.5
-    - 2.0.7-pre.4
-    - 2.0.7-pre.6
-    - 2.0.7-pre.7
-    - 3.0.0-pre.2
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.0
-    - 4.0.1
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.4.0
-    - 4.4.1
-    - 4.4.2
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    - 5.1.1
-    compatible:
-    - 5.1.1
-    recommended: 5.1.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.12.5
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.13.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638490291460000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@5.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: a2500ef2ce79a436d6e5f3f6acde6214eb5a089f
-    path: 
-  unityLifecycle:
-    version: 5.1.1
-    nextVersion: 
-    recommendedVersion: 5.1.0
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"gameService":{"genericDashboardUrl":"https://dashboard.unity3d.com/analytics","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Analytics
-    - Gaming Services"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
-    8.1 Universal","Windows 10 Universal","WebGL"],"changelog":"### Added\n\n- Added
-    Apple Privacy Manifest\n\n### Changed\n\n* Updated `com.unity.services.core`
-    dependency to 1.12.5 which contains Apple Privacy Manifest"}'
-  assetStore:
-    productId: 
-  fingerprint: 3755d89791d460e409a5f582448867001b79821f
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 5.1.1
-    minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.searcher@4.9.2
-  testable: 0
-  isDirectDependency: 0
-  version: 4.9.2
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.searcher
-  assetPath: Packages/com.unity.searcher
-  name: com.unity.searcher
-  displayName: Searcher
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: General search window for use in the Editor. First target use is for
-    GraphView node search.
-  errors: []
-  versions:
-    all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    - 4.9.2
-    compatible:
-    - 4.9.2
-    recommended: 4.9.2
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    recommended: 1.2.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
-  - search
-  - searcher
+  - unity
   registry:
     id: main
     name: 
@@ -6215,16 +4998,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637831252240000000
+  datePublishedTicks: 637841876140000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
     path: 
   unityLifecycle:
-    version: 4.9.2
+    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6237,17 +5020,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 90d011a70418fd5b0f4b8e86df39444d2af228dd
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 4.9.2
-    minimumUnityVersion: 2019.1.0a1
-- packageId: com.unity.burst@1.8.16
+- packageId: com.unity.burst@1.8.13
   testable: 0
   isDirectDependency: 0
-  version: 1.8.16
+  version: 1.8.13
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.burst
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.burst@1.8.13
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6394,6 +5172,9 @@ m_ResolvedPackages:
     - 1.8.15
     - 1.8.16
     compatible:
+    - 1.8.13
+    - 1.8.14
+    - 1.8.15
     - 1.8.16
     recommended: 1.8.16
     deprecated: []
@@ -6404,7 +5185,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.2.6
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
@@ -6420,16 +5201,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638538904590000000
+  datePublishedTicks: 638459163600000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: c26d24707e3090f86fd59f265b377ec2fe17f690
+    url: git@github.cds.internal.unity3d.com:unity/burst
+    revision: 018c84715a0efcfda7f76841a1b0b0366e55f407
     path: 
   unityLifecycle:
-    version: 1.8.16
+    version: 1.8.13
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6439,229 +5220,498 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed compiler crash caused by faulty
-    alias analysis"}'
+  upmReserved: '{"changelog":"### Added\n- Added clearer diagnostic error for certain
+    bad usages of IsSupportedXXX intrinsics.\n- Added support for Burst with the
+    visionOS Simulator SDK.\n- Added support for Windows Arm64.\n\n### Fixed\n- Fixed
+    InvalidCompilerException  when usage of IsSupportedXXX intrinsic results in no
+    branches being generated.\n- Fixed information in documentation regarding scheduling
+    generic jobs through generic methods.\n- Fixed a crash caused by arithmetic or
+    bitwise negation on native integers followed by a cast to a pointer.\n- Fixed
+    that the burst debug information folder would sometimes be saved in project root
+    folder.\n- Fixed `System.ArgumentNullException` exception in ILPostProcessing
+    when encountering a library using `mscorlib`\n- Fixed an issue where if two modules
+    were referencing the same external method (dllImport) an internal compiler error
+    could occur - \"Burst internal compiler error: Burst.Compiler.IL.CompilerException:
+    Error while verifying module: DISubprogram attached to more than one function\"\n-
+    Fixed \"Failed to find entry-points: ... An item with the same key has already
+    been added\" error that could occur in the presence of precompiled (usually obfuscated)
+    assemblies that contained methods overloaded only by return type\n\n### Removed\n\n###
+    Changed\n\n### Known Issues"}'
   assetStore:
     productId: 
-  fingerprint: 000840f9394643fba72955ad6e31718ddf96ec36
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.8.16
-    minimumUnityVersion: 2020.3.0a1
-- packageId: com.unity.mathematics@1.3.2
+- packageId: com.unity.render-pipelines.core@16.0.5
   testable: 0
   isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.mathematics
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
+  version: 16.0.5
+  source: 2
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.render-pipelines.core@16.0.5
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
   author:
     name: 
     email: 
     url: 
   category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
   errors: []
   versions:
     all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.35
+    - 9.0.0-preview.38
+    - 9.0.0-preview.60
+    - 9.0.0-preview.77
+    - 10.0.0-preview.30
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 16.0.5
     compatible:
-    - 1.3.1
-    - 1.3.2
-    recommended: 1.3.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.1
-    minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.collections@2.4.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.4.1
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.collections
-  assetPath: Packages/com.unity.collections
-  name: com.unity.collections
-  displayName: Collections
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: A C# collections library providing data structures that can be used
-    in jobs, and optimized by Burst compiler.
-  errors: []
-  versions:
-    all:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    - 1.2.3-pre.1
-    - 1.2.3
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    - 2.4.0-exp.2
-    - 2.4.0-pre.2
-    - 2.4.0-pre.5
-    - 2.4.0
-    - 2.4.1
-    - 2.4.2
-    - 2.5.0-exp.1
-    compatible:
-    - 2.4.0
-    - 2.4.1
-    - 2.4.2
-    - 2.5.0-exp.1
-    recommended: 2.4.2
+    - 16.0.5
+    recommended: 16.0.5
     deprecated: []
   dependencies:
-  - name: com.unity.burst
-    version: 1.8.13
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework
-    version: 1.4.3
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.16
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.2.4
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.collections
+    version: 1.4.0
+  - name: com.unity.burst
+    version: 1.8.13
   - name: com.unity.nuget.mono-cecil
     version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.4
   - name: com.unity.ext.nunit
     version: 2.0.5
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 16.0.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.shadergraph@16.0.5
+  testable: 0
+  isDirectDependency: 0
+  version: 16.0.5
+  source: 2
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.shadergraph@16.0.5
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  errors: []
+  versions:
+    all:
+    - 0.1.8
+    - 0.1.9
+    - 0.1.17
+    - 1.0.0-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.6-preview
+    - 1.1.8-preview
+    - 1.1.9-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.14
+    - 9.0.0-preview.34
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 16.0.5
+    compatible:
+    - 16.0.5
+    recommended: 16.0.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 16.0.5
+  - name: com.unity.searcher
+    version: 4.9.2
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 16.0.5
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  keywords:
-  - dots
-  - collections
-  - unity
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.collections
+    version: 1.4.0
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.4.4
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.searcher
+    version: 4.9.2
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 16.0.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.services.core@1.12.5
+  testable: 0
+  isDirectDependency: 0
+  version: 1.12.5
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.services.core@1.12.5
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services SDK.'
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
+    - 1.13.0
+    compatible:
+    - 1.12.4
+    - 1.12.5
+    - 1.13.0
+    recommended: 1.12.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords: []
   registry:
     id: main
     name: 
@@ -6674,16 +5724,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638502382870000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.4/manual/index.html
+  datePublishedTicks: 638481576230000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.12/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 6ecf7a215623cca37079c6f1a3e6f2f686c91721
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 85f4cc67cb1ec043a92990cbe34002037e9948e4
     path: 
   unityLifecycle:
-    version: 2.4.0
+    version: 1.12.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6693,21 +5743,673 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n* Release preparation\n* Updated Burst
-    dependency to version 1.8.13"}'
+  upmReserved: '{"changelog":"### Added\n\n- Apple privacy manifest file (PrivacyInfo.xcprivacy)\n\n###
+    Fixed\n\n- Fixed an issue with the optional `FEATURE_SERVICES_INSTANCES` preprocessor
+    define."}'
   assetStore:
     productId: 
-  fingerprint: 6fee59cd6ff39d27e6f29da7a92f8e37c60f5e72
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.4.0
-    minimumUnityVersion: 2022.3.11f1
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.editorcoroutines@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - coroutine
+  - coroutines
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637232611380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.performance.profile-analyzer@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  assetPath: Packages/com.unity.performance.profile-analyzer
+  name: com.unity.performance.profile-analyzer
+  displayName: Profile Analyzer
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "The Profile Analyzer tool supports the standard Unity Profiler. You
+    can use it to analyze multiple frames and multiple data sets of the CPU data
+    in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
+    set of Profiler CPU data \n\u25AA Comparison of two multi-frame profile scans
+    \n\n"
+  errors: []
+  versions:
+    all:
+    - 0.4.0-preview.3
+    - 0.4.0-preview.5
+    - 0.4.0-preview.6
+    - 0.5.0-preview.1
+    - 0.6.0-preview.1
+    - 0.7.0-preview.4
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.0-pre.2
+    - 1.1.0
+    - 1.1.1
+    - 1.2.2
+    compatible:
+    - 1.2.2
+    recommended: 1.2.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638108624620000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
+    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
+    path: 
+  unityLifecycle:
+    version: 1.2.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n* Fixed exception thrown when removing
+    marker."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.testtools.codecoverage@1.2.5
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.5
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
+  assetPath: Packages/com.unity.testtools.codecoverage
+  name: com.unity.testtools.codecoverage
+  displayName: Code Coverage
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Use this package to export code coverage data and reports from your
+    automated tests. Additionally, the Code Coverage package offers a Coverage Recording
+    feature which allows capturing coverage data on demand, for manual testing or
+    when there are no automated tests in the project.
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.4.2-preview
+    - 0.4.3-preview
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-exp.1
+    - 1.2.0-exp.2
+    - 1.2.0-exp.3
+    - 1.2.0-exp.4
+    - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    compatible:
+    - 1.2.5
+    recommended: 1.2.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.0.16
+  - name: com.unity.settings-manager
+    version: 1.0.1
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.4.4
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - test
+  - coverage
+  - testing
+  - opencover
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638386640140000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
+    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
+    path: 
+  unityLifecycle:
+    version: 1.2.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixes\n- Fixed failing to generate code coverage
+    for assemblies whose name starts with ''system'' (case [COV-38](https://issuetracker.unity3d.com/issues/code-coverage-fails-to-generate-a-report-when-the-assembly-name-begins-with-the-word-system)).\n-
+    Fixed results xml file not been correctly stored under the EditMode folder if
+    it is written after a domain reload (case [COV-36](https://issuetracker.unity3d.com/issues/coverage-results-xml-file-is-not-categorized-as-editmode-if-it-is-written-after-domain-reload))."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.splines@2.5.2
+  testable: 0
+  isDirectDependency: 0
+  version: 2.5.2
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.splines@2.5.2
+  assetPath: Packages/com.unity.splines
+  name: com.unity.splines
+  displayName: Splines
+  author:
+    name: 
+    email: 
+    url: 
+  category: Tool
+  type: tool
+  description: Work with curves and paths. Use the Splines package to generate objects
+    and behaviors along paths, create trajectories, and draw shapes.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 1.0.0-pre.5
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0
+    - 2.4.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    compatible:
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    recommended: 2.5.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - spline
+  - curve
+  - path
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638403055030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
+    revision: 80fae673490cb05db4e1532f2eeae338a9603846
+    path: 
+  unityLifecycle:
+    version: 2.5.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- [SPLB-222] Added safety checks to spline
+    changed events. \n\n### Changed\n\n- [SPLB-233] Removed transform handles while
+    dragging a knot using direct manipulation.\n- [SPLB-234] Removed unnecessary
+    spline metadata which was saved on disk.\n\n### Bug Fixes\n\n- [SPLB-230] Fixed
+    a bug where modifying the tangent mode on the last knot would change the spline
+    shape unpredictably.\n- [SPLB-225] Fixed a bug where closing a Spline with the
+    `Draw Splines Tool` had inconsistent behaviour.\n- [SPLB-236] Fixed a bug where
+    the spline instantiate inspector was throwing an exception when the selection
+    contained objects without that component.\n- [SPLB-235] Fixed a bug where hovering
+    a knot was create highlights when dragging tangents.\n- [SPLB-234] Fixed a bug
+    where it was impossible to add a knot on the latest added knot.\n- [SPLB-214]
+    Fixed an exception that would when adding a spline via the inspector if no other
+    spline exists.\n- [SPLB-226] Fixed broken preview when adding knots to a closed
+    spline"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.services.analytics@4.4.0
+  testable: 0
+  isDirectDependency: 0
+  version: 4.4.0
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.services.analytics@4.4.0
+  assetPath: Packages/com.unity.services.analytics
+  name: com.unity.services.analytics
+  displayName: Analytics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Analytics package automatically collects core events and
+    user properties when someone uses your game or application, and enables you to
+    track specific in-game actions your user performs by defining custom events.
+    The data collected from this package is surfaced in the Unity dashboard where
+    you can use it to gather user insights, segment your player base and make informed
+    decisions around the optimization of your game.
+  errors: []
+  versions:
+    all:
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 2.0.7-pre.4
+    - 2.0.7-pre.6
+    - 2.0.7-pre.7
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
+    - 4.4.2
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    compatible:
+    - 4.4.0
+    - 4.4.1
+    - 4.4.2
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    recommended: 4.4.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.8.1
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.12.5
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638139658640000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@4.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 5db3aa3dee060f5a0e7a2730049651a66a7fafbe
+    path: 
+  unityLifecycle:
+    version: 4.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"gameService":{"genericDashboardUrl":"https://dashboard.unity3d.com/analytics","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Analytics"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
+    8.1 Universal","Windows 10 Universal","WebGL"],"changelog":"### Added\n\n* CustomData
+    method now supports IDictionary<string,object>, IList<object> and Enum parameters\n\n###
+    Changed\n\n* Events are now serialised immediately when recorded rather than
+    as part of the upload process. This should alleviate any hitches that might have
+    been experienced during upload (every 60 seconds)\n* Updated `com.unity.services.core`
+    dependency to 1.8.1\n\n### Fixed\n\n* Custom user ID can now be changed at runtime
+    (by updating `UnityServices.ExternalUserId`)\n* Recording a single event that
+    is too big to upload (over 4MB) no longer prevents any further events from being
+    uploaded (event is immediately discarded with a warning)\n* Session ID is now
+    refreshed when application is paused for over 5 minutes (when Run In Background
+    is false)\n\n### Deprecated\n\n* The `RecordEvent(Event event)` API is no longer
+    supported and will be removed in a future version"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.searcher@4.9.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.2
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.searcher@4.9.2
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    compatible:
+    - 4.9.2
+    recommended: 4.9.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637831252240000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    path: 
+  unityLifecycle:
+    version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.rendering.light-transport@1.0.1
   testable: 0
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.rendering.light-transport@1.0.1
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6729,18 +6431,18 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.unity.collections
-    version: 2.2.0
+    version: 1.4.0
   - name: com.unity.mathematics
     version: 1.2.4
-  - name: com.unity.modules.terrain
-    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 16.0.1
   resolvedDependencies:
   - name: com.unity.collections
-    version: 2.4.1
+    version: 1.4.0
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.13
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.2.6
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.nuget.mono-cecil
@@ -6751,8 +6453,14 @@ m_ResolvedPackages:
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
+  - name: com.unity.render-pipelines.core
+    version: 16.0.5
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   keywords:
@@ -6793,17 +6501,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 93d45dde68636ce4c7eeb2212a06d38327ea3821
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.1
-    minimumUnityVersion: 2023.3.0b1
 - packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.nuget.newtonsoft-json
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -6884,17 +6587,186 @@ m_ResolvedPackages:
     2.0."}'
   assetStore:
     productId: 
-  fingerprint: 74deb55db2a0c29ddfda576608bcb86abbd13ee6
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.2.1
-    minimumUnityVersion: 2018.4.0a1
+- packageId: com.unity.collections@1.4.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.4.0
+  source: 1
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.collections@1.4.0
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    compatible:
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    recommended: 1.2.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.6.6
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.1.31
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.4.4
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637950498500000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 8d3aa805a44e52c256f5c15cabe67d7e38a4bcb4
+    path: 
+  unityLifecycle:
+    version: 1.2.4
+    nextVersion: 2.1.0-pre.6
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.nuget.mono-cecil@1.11.4
   testable: 0
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6964,94 +6836,3 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.11.4
-    minimumUnityVersion: 2018.4.0a1
-- packageId: com.unity.test-framework.performance@3.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.3
-  source: 1
-  resolvedPath: C:\Users\elgol\CrushWorld\Library\PackageCache\com.unity.test-framework.performance
-  assetPath: Packages/com.unity.test-framework.performance
-  name: com.unity.test-framework.performance
-  displayName: Performance testing API
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Package that extends Unity Test Framework package. Adds performance
-    testing capabilities and collects configuration metadata.
-  errors: []
-  versions:
-    all:
-    - 3.0.3
-    compatible:
-    - 3.0.3
-    recommended: 3.0.3
-    deprecated: []
-  dependencies:
-  - name: com.unity.test-framework
-    version: 1.1.31
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - performance
-  - test
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
-    revision: 10b82691b2d9f4e4aa8385c8d797c7e544bac548
-    path: 
-  unityLifecycle:
-    version: 3.0.3
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"## Fixed \n- Fixed issue where exception in OnTestEnded
-    callback would result in EndTest method not finalising properly\n### Changed\n-
-    Temporarily removed \"Open Script\" from Performance Benchmark Window\n- Some
-    clarifications in documentation were added (\"Extension\" naming changed to \"Package\",
-    Package limitations clarified)"}'
-  assetStore:
-    productId: 
-  fingerprint: fb0dc592af8b524f1a06c50d7caf95552f1bcd2f
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.0.3
-    minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: 0533ba953000893cf1646362906cff164a0b8b44
